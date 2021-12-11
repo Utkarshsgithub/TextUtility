@@ -1,0 +1,138 @@
+html {
+    margin: 0;
+    padding: 0;
+    --primary-color: #fff;
+    --secondary-color: #141850;
+    --tirtiary-color: rgb(243, 243, 243);
+}
+
+body {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    transition: .2s linear;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    background: var(--tirtiary-color);
+    position: sticky;
+    top: 0;
+    transition: 0.2s linear;
+}
+
+#navbar h1 {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+#navbar ul {
+    margin-top: 9px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li {
+    margin: 20px;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    opacity: .8;
+}
+
+#navbar ul li a:hover {
+    opacity: 1;
+}
+
+#form {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#form label {
+    font-size: 1.5rem;
+}
+
+#textarea {
+    color: var(--secondary-color);
+    padding: 20px;
+    width: 98%;
+    background: var(--primary-color);
+    outline: none;
+    border: none;
+    border: 1px solid var(--tirtiary-color);
+}
+
+.scndsection {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+#textsummary {
+    min-width: 300px;
+    max-height: 180px;
+    display: inline-block;
+    border: 1px solid var(--tirtiary-color);
+    border-radius: 5px;
+    background: var(--primary-color);
+    padding: 10px;
+    margin-left: auto;
+}
+
+#textsummary h1 {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+
+#textsummary ul li {
+    color: var(--secondary-color);
+    list-style-type: square;
+    line-height: 200%;
+}
+
+#about {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--secondary-color);
+}
+
+#about h1 {
+    font-size: rem;
+}
+
+#about p {
+    max-width: 70%;
+    border-left: 8px solid var(--secondary-color);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#darkmode {
+    height: 30px;
+    width: 30px;
+    border-radius: 10%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+
+/* 
+#copy {
+    margin-left: auto;
+} */
